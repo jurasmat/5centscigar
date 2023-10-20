@@ -1,0 +1,325 @@
+* {
+  margin: 20;
+  padding: 20;
+  border: 1;
+  outline: 0;
+}
+
+html,
+body {
+  background-color: rgb(190, 190, 190);
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 1%;
+  margin-right: 1%;
+}
+
+.picture1 {
+  position: absolute;
+}
+
+.picture2 {
+  position: absolute;
+}
+
+.picture3 {
+  position: absolute;
+}
+
+img {
+  max-width: 100%;
+  width: 13vw;
+  height: auto;
+  box-shadow: -2px 2px 8px #535353;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  position: absolute;
+  box-shadow: -2px 2px 8px #535353;
+  opacity: 96%;
+}
+.square2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 140, 0);
+  position: absolute;
+  box-shadow: -2px 2px 8px #535353;
+  opacity: 96%;
+}
+.square3 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(162, 255, 0);
+  position: absolute;
+  box-shadow: -2px 2px 8px #535353;
+  opacity: 96%;
+}
+
+.square4 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 0, 157);
+  position: absolute;
+  box-shadow: -2px 2px 8px #535353;
+  opacity: 96%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* table-layout: fixed; */
+
+  grid-gap: 20px;
+  width: 60vw;
+  height: 73vh;
+  overflow-x: auto;
+  background-color: rgb(190, 190, 190);
+}
+
+.grid,
+.grid2,
+.grid3,
+.grid5,
+.grid6,
+.grid7,
+.grid9,
+.grid10,
+.grid11,
+.grid13,
+.grid14,
+.grid15,
+.grid17,
+.grid18,
+.grid19,
+.grid21,
+.grid22,
+.grid23,
+.grid25,
+.grid26,
+.grid27,
+.grid29,
+.grid30,
+.grid31,
+.grid33,
+.grid34,
+.grid35,
+.grid37,
+.grid38,
+.grid39,
+.grid41,
+.grid42,
+.grid43,
+.grid45,
+.grid46,
+.grid47,
+.grid49,
+.grid50,
+.grid51,
+.grid53,
+.grid54,
+.grid55,
+.grid57,
+.grid58,
+.grid59,
+.grid61,
+.grid62,
+.grid63,
+.grid65,
+.grid66,
+.grid67,
+.grid69,
+.grid70,
+.grid71,
+.grid73,
+.grid74,
+.grid75,
+.grid77,
+.grid78,
+.grid79,
+.grid81,
+.grid82,
+.grid83,
+.grid85,
+.grid86,
+.grid87,
+.grid89,
+.grid90,
+.grid91,
+.grid93,
+.grid94,
+.grid95,
+.grid97,
+.grid98,
+.grid99,
+.grid101,
+.grid102,
+.grid103,
+.grid105,
+.grid106,
+.grid107,
+.grid109,
+.grid110,
+.grid111,
+.grid113,
+.grid114,
+.grid115,
+.grid117,
+.grid118,
+.grid119,
+.grid121,
+.grid122,
+.grid123,
+.grid125,
+.grid126,
+.grid127,
+.grid129,
+.grid130,
+.grid131,
+.grid133,
+.grid134,
+.grid135,
+.grid137,
+.grid138,
+.grid139,
+.grid141,
+.grid142,
+.grid143,
+.grid145,
+.grid146,
+.grid147,
+.grid149,
+.grid150,
+.grid151,
+.grid153,
+.grid154,
+.grid155,
+.grid157,
+.grid158,
+.grid159,
+.grid161,
+.grid162,
+.grid163,
+.grid165,
+.grid166,
+.grid167,
+.grid169,
+.grid170,
+.grid171,
+.grid173,
+.grid174,
+.grid175,
+.grid177,
+.grid178,
+.grid179,
+.grid181,
+.grid182,
+.grid183,
+.grid185,
+.grid186,
+.grid187,
+.grid189,
+.grid190,
+.grid191,
+.grid193,
+.grid194,
+.grid195,
+.grid197,
+.grid198,
+.grid199,
+.grid201,
+.grid202,
+.grid203,
+.grid205,
+.grid206,
+.grid207,
+.grid209,
+.grid210,
+.grid211,
+.grid213,
+.grid214,
+.grid215 {
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.grid4,
+.grid8,
+.grid12,
+.grid16,
+.grid20,
+.grid24,
+.grid28,
+.grid32,
+.grid36,
+.grid40,
+.grid44,
+.grid48,
+.grid52,
+.grid56,
+.grid60,
+.grid64,
+.grid68,
+.grid72,
+.grid76,
+.grid80,
+.grid84,
+.grid88,
+.grid92,
+.grid96,
+.grid100,
+.grid104,
+.grid108,
+.grid112,
+.grid116,
+.grid120,
+.grid124,
+.grid128,
+.grid132,
+.grid136,
+.grid140,
+.grid144,
+.grid148,
+.grid152,
+.grid156,
+.grid160,
+.grid164,
+.grid168,
+.grid172,
+.grid176,
+.grid180,
+.grid184,
+.grid188,
+.grid192,
+.grid196,
+.grid200,
+.grid204,
+.grid208,
+.grid212,
+.grid216 {
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  font-size: 5vw;
+  flex-shrink: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.bigger-row {
+  height: 40px;
+}

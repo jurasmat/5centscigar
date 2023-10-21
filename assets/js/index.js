@@ -12,13 +12,15 @@ function positionElementRandomly(elementId) {
 }
 
 window.addEventListener("load", function () {
-  positionElementRandomly("randomSquare");
-  positionElementRandomly("randomSquare2");
-  positionElementRandomly("randomSquare3");
-  positionElementRandomly("randomSquare4");
   positionElementRandomly("picture1");
   positionElementRandomly("picture2");
   positionElementRandomly("picture3");
+  positionElementRandomly("picture4");
+  positionElementRandomly("picture5");
+  positionElementRandomly("picture6");
+  positionElementRandomly("picture7");
+  positionElementRandomly("picture8");
+  positionElementRandomly("picture9");
 });
 
 function makeElementDraggable(elementId) {
@@ -48,13 +50,15 @@ function makeElementDraggable(elementId) {
 
 window.addEventListener("load", function () {
   const elementIds = [
-    "randomSquare",
-    "randomSquare2",
-    "randomSquare3",
-    "randomSquare4",
     "picture1",
     "picture2",
     "picture3",
+    "picture4",
+    "picture5",
+    "picture6",
+    "picture7",
+    "picture8",
+    "picture9",
   ];
 
   elementIds.forEach((id) => {

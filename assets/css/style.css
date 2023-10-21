@@ -12,7 +12,7 @@ body {
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Sans-Serif;
 }
 
 .opening-screen {
@@ -36,19 +36,33 @@ h1 {
   position: fixed;
   top: 0;
   right: 0;
-  margin-top: 1%;
-  margin-right: 1%;
+  margin-top: 2%;
+  margin-right: 3%;
+  font-style: italic;
 }
 
-.picture1 {
-  position: absolute;
+h2 {
+  color: rgb(143, 143, 143);
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 2%;
+  margin-right: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5vw;
+  font-style: oblique;
 }
 
-.picture2 {
-  position: absolute;
-}
-
-.picture3 {
+.picture1,
+.picture2,
+.picture3,
+.picture4,
+.picture5,
+.picture6,
+.picture7,
+.picture8,
+.picture9 {
   position: absolute;
 }
 
@@ -59,48 +73,14 @@ img {
   box-shadow: -2px 2px 8px #535353;
 }
 
-.square {
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
-  position: absolute;
-  box-shadow: -2px 2px 8px #535353;
-  opacity: 96%;
-}
-.square2 {
-  width: 200px;
-  height: 200px;
-  background-color: rgb(255, 140, 0);
-  position: absolute;
-  box-shadow: -2px 2px 8px #535353;
-  opacity: 96%;
-}
-.square3 {
-  width: 200px;
-  height: 200px;
-  background-color: rgb(162, 255, 0);
-  position: absolute;
-  box-shadow: -2px 2px 8px #535353;
-  opacity: 96%;
-}
-
-.square4 {
-  width: 200px;
-  height: 200px;
-  background-color: rgb(255, 0, 157);
-  position: absolute;
-  box-shadow: -2px 2px 8px #535353;
-  opacity: 96%;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* table-layout: fixed; */
 
   grid-gap: 20px;
-  width: 60vw;
-  height: 74vh;
+  width: 70vw;
+  height: 99vh;
   overflow-x: auto;
   background-color: rgb(190, 190, 190);
 }

@@ -67,5 +67,5 @@ document.addEventListener("DOMContentLoaded", function () {
     const openingScreen = document.getElementById("opening-screen");
     openingScreen.style.opacity = 0;
     openingScreen.style.pointerEvents = "none";
-  }, 200);
+  }, 100);
 });

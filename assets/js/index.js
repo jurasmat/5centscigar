@@ -27,6 +27,7 @@ function makeElementDraggable(elementId) {
   let offsetX, offsetY;
 
   element.addEventListener("mousedown", (e) => {
+    e.preventDefault();
     isDragging = true;
     offsetX = e.clientX - element.getBoundingClientRect().left;
     offsetY = e.clientY - element.getBoundingClientRect().top;
@@ -59,4 +60,12 @@ window.addEventListener("load", function () {
   elementIds.forEach((id) => {
     makeElementDraggable(id);
   });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(function () {
+    const openingScreen = document.getElementById("opening-screen");
+    openingScreen.style.opacity = 0;
+    openingScreen.style.pointerEvents = "none";
+  }, 200);
 });

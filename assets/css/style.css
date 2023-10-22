@@ -28,6 +28,7 @@ body {
   opacity: 1;
   z-index: 1;
   transition: opacity 0.8s ease-out;
+  font-size: 6vw;
 }
 
 h1 {
@@ -48,7 +49,7 @@ h2 {
   right: 0;
   margin-bottom: 2%;
   margin-right: 3%;
-  font-size: 1.5vw;
+  font-size: 1vw;
 }
 
 .picture1,
@@ -73,7 +74,7 @@ img {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* table-layout: fixed; */
+  table-layout: fixed;
 
   grid-gap: 20px;
   width: 70vw;
@@ -240,7 +241,6 @@ img {
 .grid207,
 .grid209,
 .grid210,
-.grid211,
 .grid213,
 .grid214,
 .grid215 {
@@ -255,60 +255,77 @@ img {
 .grid8,
 .grid12,
 .grid16,
-.grid20,
-.grid24,
 .grid28,
-.grid32,
-.grid36,
-.grid40,
 .grid44,
 .grid48,
-.grid52,
 .grid56,
 .grid60,
-.grid64,
 .grid68,
-.grid72,
 .grid76,
 .grid80,
-.grid84,
 .grid88,
 .grid92,
 .grid96,
-.grid100,
 .grid104,
-.grid108,
 .grid112,
 .grid116,
-.grid120,
-.grid124,
 .grid128,
 .grid132,
 .grid136,
 .grid140,
 .grid144,
-.grid148,
-.grid152,
 .grid156,
 .grid160,
 .grid164,
 .grid168,
-.grid172,
 .grid176,
-.grid180,
-.grid184,
-.grid188,
 .grid192,
 .grid196,
 .grid200,
 .grid204,
-.grid208,
-.grid212,
+.grid211,
 .grid216 {
   border-collapse: collapse;
   width: 100%;
   height: 100%;
   font-size: 5vw;
+  flex-shrink: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.grid24,
+.grid32,
+.grid52,
+.grid64,
+.grid72,
+.grid100,
+.grid108,
+.grid148,
+.grid184,
+.grid212 {
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  font-size: 6vw;
+  flex-shrink: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.grid20,
+.grid36,
+.grid40,
+.grid84,
+.grid120,
+.grid124,
+.grid152,
+.grid172,
+.grid180,
+.grid188,
+.grid208 {
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  font-size: 4vw;
   flex-shrink: 0;
   background-color: rgb(255, 255, 255);
 }

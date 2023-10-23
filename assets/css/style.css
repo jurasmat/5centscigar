@@ -62,6 +62,19 @@ h2 {
 .picture8,
 .picture9 {
   position: absolute;
+  transition: 0.1s;
+}
+
+.picture1:hover,
+.picture2:hover,
+.picture3:hover,
+.picture4:hover,
+.picture5:hover,
+.picture6:hover,
+.picture7:hover,
+.picture8:hover,
+.picture9:hover {
+  opacity: 80%;
 }
 
 img {
